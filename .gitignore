@@ -1,0 +1,54 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build
+target/
+build/
+dist/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar
+*.tar.gz
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+.gradle/
+
+# Environment & Credentials
+.env
+.env.local
+.env.*.local
+application-*.properties
+application.properties.local
+*.pem
+*.key
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Testing
+.nyc_output/
+coverage/
+
+# Misc
+.classpath
+.project
+.settings/
